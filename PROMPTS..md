@@ -89,12 +89,3 @@ real; las capturas correspondientes están en `docs/evidencias/`.
 
 ---
 
-## Entrada 5 — [Pull Request / revisión final]
-
-- **Fecha:** [fecha]
-- **Objetivo del prompt:** [ej. revisión del PR como si fuera el profesor]
-- **Prompt usado:** [...]
-- **Respuesta recibida:** [...]
-- **Decisión humana:** [...]
-- **Cambios en el proyecto:** [...]
-- **Verificación aplicada:** [...]
