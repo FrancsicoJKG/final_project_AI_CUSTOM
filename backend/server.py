@@ -47,7 +47,7 @@ class ExamRequestHandler(BaseHTTPRequestHandler):
                 self._send_json(400, {"error": "user_id and question are required"})
                 return
 
-            self._send_json(200, answer_question(user_id, question))
+            self._send_json(200, answer_question(user_id, question, context_store=context_store))
             return
 
         if parsed.path == "/api/context":
